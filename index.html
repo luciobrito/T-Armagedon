@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>T-Armagedon</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>T-Armagedon </h1>
+    </div>
+    <div class="corpo" id="corpo">
+        <p>☢ Defina o nome do seu personagem ☢</p>
+    </div>
+
+    <div class="formu">
+        <form action="">
+        <input type="text" name="Nome do personagem" id="personagem" class="personagem" placeholder="Nome do personagem" maxlength="15" autocomplete="off"><br>
+        <input type="button" value="Definir" class="botao" onclick="definir()" id="defb">
+
+    </form>
+    </div>
+
+    <input type="button" value="Tutorial" class="botao" onclick="tutorial()" id="Btutorial">
+    <h1 id="Ttutorial" class="subtitulo"></h1>
+    <p id="principal" class="corpo"></p>
+
+    <div hidden>
+        <p id="tutorial" >
+            >> Bem vindo(a) ao T-Armagedon, para iniciar defina o nome do seu personagem. T-Armagedon é um jogo com temática pós
+            apocaliptica, baseado em texto com multiplas escolhas e finais. Cada escolha direcionará para diferentes escolhas e
+            finais. Seu objetivo é impedir a destruição do mundo pelas armas nucleares.
+        </p>
+
+        <p id="texto1" > acaba de receber a terrível notícia de que o mundo vai acabar. Para evitar que isso aconteça,  </p> <p id="texto1.1"> tem duas opções:</p>
+
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
