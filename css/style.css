@@ -1,0 +1,102 @@
+@font-face{
+    font-family: 'data-70';
+    src: url(../sources/Data\ 70\ LET.ttf);
+}
+@font-face{
+    font-family: 'fixedsys';
+    src: url(../sources/fixedsys.ttf);
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.titulo{
+    margin: auto;
+    text-align: center;
+    font-size: 150%;
+    font-family: data-70;
+    color: #adff2f;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 3s steps(60, end) forwards;
+    font-size: 1.6rem;
+    width: 0;
+    text-shadow: 1px 1px 5px greenyellow;
+
+}
+form{ /* Centraliza o formulario (input e botão)  */ 
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.botao, button{
+    margin:auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 100%;
+    border-color: greenyellow;
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    font-family: 'fixedsys';
+    line-height: 30px;
+    transition: 0.3s;
+}
+.botao:hover, button:hover{
+    font-size: 100%;
+    border-color: greenyellow;
+    background-color: black;
+    color: greenyellow;
+    font-family: 'fixedsys';
+    line-height: 30px;
+    cursor: pointer;
+}
+input[type=text]{
+    text-align: center;
+    width: 30%;
+    padding: 12px 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 130%;
+    font-family: 'fixedsys';
+    background-color: black;
+    border-color: greenyellow;
+    color: greenyellow;
+
+}
+input[type=text]:focus{
+    outline-offset: 0px ;
+    outline: none ;
+}
+.corpo{
+    text-align: center;
+    margin: auto;
+    color: greenyellow;
+    font-family: 'fixedsys';
+    font-size: 130%;
+}
+.subtitulo{
+    color: greenyellow;
+    font-family: 'fixedsys';
+    font-size: 190%;
+    text-align: center;
+}
+::selection{
+    color: white;
+    background: #4fd904;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+.botao_escolha{
+    display: inline-block;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: auto;
+    text-align: center;
+}
